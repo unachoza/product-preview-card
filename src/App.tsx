@@ -1,4 +1,3 @@
-import { useState } from "react";
 import icon from "./main/images/icon-cart.svg";
 import productImage from "./main/images/image-product-desktop.jpg";
 import "./App.css";
