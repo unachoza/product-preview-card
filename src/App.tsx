@@ -10,12 +10,17 @@ function App() {
 				<img src={productImage} alt="chanel perfume" />
 			</div>
 			<div className="content-container">
-				<title>Perfume</title>
-				<div className="name"> Gabrielle Essence Eau De Parfum</div>
-				<div className="description">
-					A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+				<div className="content">
+					<div className="title">Perfume</div>
+					<div className="name"> Gabrielle Essence Eau De Parfum</div>
+					<div className="description">
+						A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+					</div>
 				</div>
-				<div className="price">$149.99 $169.99</div>
+				<div className="price">
+					<div className="sale">$149.99</div>
+					<div className="original">$169.99</div>
+				</div>
 				<button>
 					<img src={icon} alt="shopping cart icon" />
 					Add to Cart

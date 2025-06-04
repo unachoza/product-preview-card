@@ -42,11 +42,81 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	text-align: left;
+	padding: 0 20px;
 	background-color: var(--white);
 	border-radius: 0 10px 10px 0;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.title {
+	padding: 30px 15px 20px 15px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	line-height: 120%;
+	font-size: 0.75rem;
+	font-family: "Montserrat";
+	font-weight: 500;
+	color: var(--grey);
+}
+
+.name {
+	padding: 0 15px;
+	font-family: "Fraunces";
+	font-size: 2rem;
+}
+
+.description {
+	padding: 20px 0 0 15px;
+	font-family: "Montserrat";
+	font-weight: 500;
+	color: var(--grey);
+	font-size: 0.9rem;
+	line-height: 160%;
+}
+
+.price {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	padding: 0 0px 0px 15px;
+}
+
+.sale {
+	font-family: "Fraunces";
+	font-size: 2rem;
+	color: var(--green500);
+	margin-right: 10px;
+}
+
+.original {
+	font-family: "Montserrat";
+	text-decoration: line-through;
+	color: var(--grey);
 }
 
 img {
 	max-height: 60vh;
 	overflow: hidden;
+}
+button {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 20px 20px 20px;
+	padding: 15px 50px;
+	background-color: var(--green500);
+	color: var(--white);
+	font-family: "Montserrat";
+	font-weight: 700;
+	border: none;
+	border-radius: 10px;
+}
+
+button:hover {
+	background-color: var(--green700);
+	cursor: pointer;
 }
