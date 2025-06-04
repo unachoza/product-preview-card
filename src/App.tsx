@@ -20,7 +20,7 @@ function App() {
 					<div className="sale">$149.99</div>
 					<div className="original">$169.99</div>
 				</div>
-				<button>
+				<button type="button">
 					<img src={icon} alt="shopping cart icon" />
 					Add to Cart
 				</button>
